@@ -10,7 +10,7 @@ RUN apk --update add --virtual build-dependencies libffi-dev openssl-dev python3
   && pip install idna==2.10 \
   && pip install pycparser==2.20 \
   && pip install PyMySQL==1.0.2 \
-  && pip install pytz==2021.1
+  && pip install pytz==2021.1 \
   && pip install requests==2.25.1 \
   && pip install semantic-version==2.8.5 \
   && pip install toml==0.10.2 \
